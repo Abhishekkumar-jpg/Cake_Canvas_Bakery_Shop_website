@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta SEO Links -->
+    <meta name="description" content="Welcome to Cake Canvas, where we create delicious memories with our exquisite cakes and pastries.
+                    Our passion for baking is reflected in every bite, ensuring that each creation is a masterpiece of
+                    flavor and artistry.">
+    <meta name="keywords" content="About,Gallery,Testimonials,Blogs">
+    <meta name="robots" content="index, follow">
+    <!-- Bootstrap Css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fontawesome Cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--AOS css link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--External CSS file link -->
+    <link rel="stylesheet" href="/Css/style.css">
+    <title>Cake Canvas</title>
+</head>
+
+<body>
+    <!-- Header-section -->
+    <nav class="navbar navbar mt-2">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="row gap-0  w-100 d-flex justify-content-between align-items-center">
+                    <div class="col-4">
+                        <div class="header-icons d-flex justify-content-start align-items-center">
+                            <a href="https://www.facebook.com" target="_blank" class="text-dark">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="https://www.twitter.com" target="_blank" class="text-dark">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="header-name justify-content-center  align-items-center d-flex">
+                            <h1 class="m-0">cake canvas</h1>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="header-search d-flex justify-content-end align-items-center">
+                            <form class="d-flex" role="search">
+                                <button class="btn-1 " type="submit">Call us: +912738720</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar-section -->
+    <nav class="navbar navbar-expand-lg navbar-light mt-3 bg-black">
+        <div class="container bg-black">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cakes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blogs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Daily Blogs</a></li>
+                            <li><a class="dropdown-item" href="#">Trending Items</a></li>
+                            <li><a class="dropdown-item" href="#">World Famous Cakes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Offcanvas-section -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobile-menu" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+                <h1 class="d-inline-block fs-3">Cake Canvas</h1>
+            </a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto" id="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cakes</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Blogs
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Daily Blogs</a></li>
+                        <li><a class="dropdown-item" href="#">Trending Items</a></li>
+                        <li><a class="dropdown-item" href="#">World Famous Cakes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- image-section -->
+    <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner mt-3">
+                <div class="carousel-item active">
+                    <img src="/images/cake-sweets-food-berries-fruit-hd-wallpaper-preview.jpg" class="d-block img-fluid"
+                        alt="carousel-images">
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="display-4">Triple Chocolate Mousse Cake</h1>
+                        <p>A decadent treat with layers of chocolate cake, chocolate fudge, and chocolate and white
+                            chocolate mousse, creating a rich and creamy delight.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/delicious-cupcakes-with-fruits_23-2150873151.avif" class="d-block img-fluid"
+                        alt="carousel-images">
+                    <div class="carousel-caption d-md-block">
+                        <h1 class="display-4">Butterfly Cupcakes</h1>
+                        <p>Traditional British cupcakes filled with jam and cream, topped with a butterfly-shaped cake
+                            piece, making them a charming party treat.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/content8928.jpg" class="d-block img-fluid" alt="carousel-images">
+                    <div class="carousel-caption d-md-block d-sm-block">
+                        <h1 class="display-4">Chocolate Marshmallow Donat</h1>
+                        <p>A British delight featuring a biscuit base, fluffy marshmallow filling, and a glossy
+                            chocolate dome, creating a perfect balance of textures.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- About-section -->
+    <div class="container mt-5" data-aos="fade-in">
+        <div class="row justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+            <div class="about-details col-md-6">
+                <h2 class="display-5">About Us</h2>
+                <p>Welcome to Cake Canvas, where we create delicious memories with our exquisite cakes and pastries.
+                    Our passion for baking is reflected in every bite, ensuring that each creation is a masterpiece of
+                    flavor and artistry.
+                    <br>
+                    <br>
+                    A decadent treat with layers of chocolate cake, chocolate fudge, and chocolate and white
+                    chocolate mousse, creating a rich and creamy delight. A British delight featuring a biscuit base,
+                    fluffy marshmallow filling, and a glossy
+                    chocolate dome.
+                </p>
+                <button class="btn-2">Read More</button>
+            </div>
+            <div class="about-image col-md-6">
+                <img src="/images/cakes-sweets-parties-chocolate-brigadeiro-pudding_538646-6611.avif" alt="About Us"
+                    class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+    <!-- Slider-section -->
+    <div class="container mt-5" data-aos="fade-in">
+        <h3 class="slider-h3" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">Discover new flavors with our Desserts and Cakes</h3>
+        <p class="slider-p" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">Step into a world of culinary exploration where every dish tells a story. Whether it's a
+            fusion of global cuisines or a twist on a classic favorite, our menu is full of surprises</p>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+            <div class="carousel-inner" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper d-flex">
+                        <div class="card mx-2">
+                            <img src="/images/100-pure-sweet-delicious-rich-in-taste-indian-white-milk-cake--569.jpg"
+                                class="card-img-top" alt="Milk Cake">
+                            <div class="card-body">
+                                <h5 class="card-title">Milk Cake</h5>
+                                <p class="card-text">Traditional Indian sweet made from milk, rich and creamy in taste.
+                                </p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card mx-2 d-none d-md-block">
+                            <img src="/images/360_F_245456223_CrK1J9ePGfc1UW2QncGmFfycpI3vFnxI.jpg" class="card-img-top"
+                                alt="Chocolate Cake">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate Cake</h5>
+                                <p class="card-text">Moist chocolate sponge layered with rich chocolate ganache.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card mx-2 d-none d-md-block">
+                            <img src="/images/istockphoto-488638362-612x612.jpg" class="card-img-top"
+                                alt="Strawberry Cake">
+                            <div class="card-body">
+                                <h5 class="card-title">Strawberry Cake</h5>
+                                <p class="card-text">Soft vanilla cake topped with fresh strawberries and cream.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper d-flex">
+                        <div class="card mx-2">
+                            <img src="/images/cake-sweets-food-wallpaper-preview.jpg" class="card-img-top"
+                                alt="Fruit Cake">
+                            <div class="card-body">
+                                <h5 class="card-title">Fruit Cake</h5>
+                                <p class="card-text">Classic cake loaded with assorted dried fruits and nuts.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card mx-2 d-none d-md-block">
+                            <img src="/images/cakes-pastries-desserts-wallpaper-preview.jpg" class="card-img-top"
+                                alt="Pastry Selection">
+                            <div class="card-body">
+                                <h5 class="card-title">Traffle Pastry </h5>
+                                <p class="card-text">Assorted pastries with creamy fillings and fresh toppings.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card mx-2 d-none d-md-block">
+                            <img src="/images/plum-cake-3641849_640.jpg" class="card-img-top" alt="Plum Cake">
+                            <div class="card-body">
+                                <h5 class="card-title">Plum Cake</h5>
+                                <p class="card-text">Rich cake with plums, spices, and a hint of rum flavor.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper d-flex">
+                        <div class="card mx-2">
+                            <img src="/images/side-view-fruit-cake-with-vanilla-cream-chocolate-kiwi-orange-strawberry-pineapple-pastries-table_141793-4924.avif"
+                                class="card-img-top" alt="Fruit Pastry">
+                            <div class="card-body">
+                                <h5 class="card-title">Fruit Pastry</h5>
+                                <p class="card-text">Vanilla pastry layered with cream and assorted fresh fruits.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card mx-2 d-none d-md-block">
+                            <img src="/images/HD-wallpaper-cakes-cake-delicious-sweets-food-chocolate-fruits-dessert-nuts-bakery-nice.jpg"
+                                class="card-img-top" alt="Chocolate Fruit Cake">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolate Cake</h5>
+                                <p class="card-text">Chocolate cake topped with fruits, nuts, and creamy frosting.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="card mx-2 d-none d-md-block">
+                            <img src="/images/hq720.jpg" class="card-img-top" alt="Pineapple Cake">
+                            <div class="card-body">
+                                <h5 class="card-title">Pineapple Cake</h5>
+                                <p class="card-text">Soft sponge cake with pineapple slices and whipped cream.</p>
+                                <a href="#" class="btn-3">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Gallery-section -->
+    <div class="container mt-4" data-aos="fade-in">
+        <h2 class="gallery-h2">Universal Flavors, At one Frame at a Time</h2>
+        <p class="gallery-p">Explore our gallery to see the artistry and creativity that goes into each of our cakes
+            and pastries. From classic designs to modern masterpieces, we have something for every occasion.</p>
+        <div class="row">
+            <div class="gallery-image col-md-4 mb-3">
+                <img src="/images/HD-wallpaper-cake-sweets-baked-goods-berries-fruits.jpg" alt="Gallery Image 1"
+                    class="img-fluid" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+            </div>
+            <div class="gallery-image col-md-4 mb-3">
+                <img src="/images/cakes-pastries-desserts-wallpaper-preview.jpg" alt="Gallery Image 2"
+                    class="img-fluid" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+            </div>
+            <div class="gallery-image col-md-4 mb-3">
+                <img src="/images/plum-cake-3641849_640.jpg" alt="Gallery Image 3" class="img-fluid" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">
+            </div>
+        </div>
+        <div class="row d-none d-md-flex">
+            <div class="gallery-image col-md-4 mb-3">
+                <img src="/images/content8928.jpg" alt="Gallery Image 4" class="img-fluid" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+            </div>
+            <div class="gallery-image col-md-4 mb-3">
+                <img src="/images/cake-sweets-food-berries-fruit-hd-wallpaper-preview.jpg" alt="Gallery Image 5"
+                    class="img-fluid" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+            </div>
+            <div class="gallery-image col-md-4 mb-3">
+                <img src="/images/hq720.jpg" alt="Gallery Image 6" class="img-fluid" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials-section -->
+    <div class="container mt-5" data-aos="fade-in">
+        <h2 class="testimonial-h2" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">What Our Customers Say</h2>
+        <p class="testimonial-p" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">We take pride in our customer satisfaction and Here are some of the wonderful things
+            our
+            customers have to say about us.</p>
+        <div class="row mb-4">
+            <div class="col-md-4 mb-0" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+                <div class="card h-75 shadow-sm">
+                    <div class="card-details">
+                        <div class="mb-2">
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                        <p class="card-text mb-md-0">"The cakes are always fresh and beautifully decorated. My kids love
+                            the
+                            strawberry cake the most popular and famous.!"</p>
+                        <h6 class="card-subtitle mt-3 mt-md-1 mb-0">- Meera Joshi.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-0" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+                <div class="card h-75 shadow-sm">
+                    <div class="card-details">
+                        <div class="mb-2">
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="card-text mb-md-0">"Excellent service and mouth-watering pastries. The chocolate cake
+                            is a
+                            must-try for all chocolate lovers and strawberry."</p>
+                        <h6 class="card-subtitle mt-3 mt-md-1 mb-0">- Suresh Patel.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-0" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">
+                <div class="card h-75 shadow-sm">
+                    <div class="card-details">
+                        <div class="mb-2">
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-warning"><i class="fas fa-star"></i></span>
+                            <span class="text-secondary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="card-text mb-md-0">"Great variety and taste. The staff is always welcoming and
+                            helpful. Highly
+                            recommended for celebrations."</p>
+                        <h6 class="card-subtitle mt-3 mt-md-1 mb-0">- Kavita Singh.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog-section -->
+    <div class="container mt-4" data-aos="fade-in">
+        <div class="blogs-section d-flex justify-content-between align-items-center" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+            <h2 class="blog-h2">Latest Blogs</h2>
+            <button type="submit" class="btn-4">Our blogs</button>
+        </div>
+        <div class="row mt-4" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+            <div class="col-12">
+                <div class="ratio ratio-21x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2S3YzlKjOgs?si=0N2m_8C_T7EjL2aN"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="img-fluid"></iframe>
+                </div>
+            </div>
+        </div>
+        <h2 class="blog-follow" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out"> Follow on Instagram</h2>
+        <button type="submit" class="btn-5 mt-3" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out"><i class="fab fa-instagram"></i> Cake Canvas</button>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-6 col-md-3 mb-3">
+                <img src="/images/hq720.jpg" alt="Gallery Button Image 1" class="img-fluid rounded shadow-sm" data-aos="fade-up" data-aos-delay="200" data-aos-easing="ease-in-out">
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <img src="/images/cake-sweets-food-berries-fruit-hd-wallpaper-preview.jpg" alt="Gallery Button Image 2"
+                    class="img-fluid rounded shadow-sm" data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-in-out">
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <img src="/images/content8928.jpg" alt="Gallery Button Image 3" class="img-fluid rounded shadow-sm" data-aos="fade-up" data-aos-delay="400" data-aos-easing="ease-in-out">
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <img src="/images/100-pure-sweet-delicious-rich-in-taste-indian-white-milk-cake--569.jpg"
+                    alt="Gallery Button Image 4" class="img-fluid rounded shadow-sm" data-aos="fade-up" data-aos-delay="500" data-aos-easing="ease-in-out">
+            </div>
+        </div>
+    </div>
+    <!-- Footer-section -->
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- About -->
+                <div class="footer-details col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Cake Canvas</h5>
+                    <p>Crafting delicious cakes and pastries for every occasion. Taste the art of baking with us!</p>
+                    <div>
+                        <a href="https://www.facebook.com" target="_blank" class="text-light me-3"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" target="_blank" class="text-light me-3"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="text-light"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-details  col-md-4 mb-4 mb-md-0">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Cakes</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Blogs</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div class="footer-details col-md-4">
+                    <h5 class="mb-3">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i>123 Baker Street, Sweet City</li>
+                        <li><i class="fas fa-phone me-2"></i>+91 2738720</li>
+                        <li><i class="fas fa-envelope me-2"></i>info@cakecanvas.com</li>
+                    </ul>
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Subscribe for updates"
+                                aria-label="Email">
+                            <button class="btn btn-warning" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="bg-secondary mt-4">
+            <div class="text-center small d-flex justify-content-between align-items-baseline">
+                <p>Design and Developed by Abhishek</p>
+                &copy; 2024 Cake Canvas. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!--AOS js link-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+<!-- Bootstrap Js Link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
